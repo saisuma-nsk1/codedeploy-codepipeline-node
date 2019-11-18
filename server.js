@@ -5,7 +5,7 @@ require('http')
     res.writeHeader(200,{'Content-Type': 'text/html'})
     res.write('<p>AWS Codepipeline</p>')
     res.write('<p>This is Nodejs application</p>')
-    res.end('<h1>Hello Zenqore</h1>')
+    res.end('<h1>Hello world</h1>')
   })
   .listen(port, (error)=>{
     console.log(`server is running on ${port}`)
